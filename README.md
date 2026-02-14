@@ -5,16 +5,21 @@ Lightweight cinematic camera engine for Paper/Spigot servers using Catmull-Rom s
 ### Project's Structure
 ```
 Zenith-Cinematics/
-├── src/main/java/com/zenith/cinematics/
-│   ├── ZenithPlugin.java (Main)
-│   ├── camera/
-│   │   ├── CameraPath.java (Math Engine)
-│   │   └── ScenePlayer.java (Execution)
-│   └── util/
-│       └── Interpolator.java (Smooth Curves)
-├── src/main/resources/
-│   └── plugin.yml
-└── pom.xml
+├── pom.xml                         
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── zenith/
+        │           └── cinematics/
+        │               ├── ZenithPlugin.java
+        │               ├── camera/
+        │               │   ├── CameraCommand.java
+        │               │   └── ScenePlayer.java
+        │               └── util/
+        │                   └── Interpolator.java
+        └── resources/
+            └── plugin.yml
 ```
 
 ### Implementation
