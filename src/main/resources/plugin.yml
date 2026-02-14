@@ -1,0 +1,7 @@
+name: Zenith-Cinematics
+version: 1.0.0
+main: com.zenith.cinematics.ZenithPlugin
+api-version: '1.21'
+commands:
+  cinematic:
+    description: Control camera
